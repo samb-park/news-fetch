@@ -2,3 +2,4 @@ flask
 transformers
 newspaper3k
 feedparser
+gunicorn
