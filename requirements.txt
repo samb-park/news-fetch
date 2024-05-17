@@ -4,3 +4,4 @@ newspaper3k
 feedparser
 gunicorn
 lxml[html_clean]
+torch
