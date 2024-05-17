@@ -1,0 +1,15 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+venv/
+ENV/
+env.bak/
+*.sqlite3
+
+.env
+
+# macOS
+.DS_Store
