@@ -4,4 +4,4 @@ newspaper3k
 feedparser
 gunicorn
 lxml[html_clean]
-torch
+torch==1.9.0  # Add a specific version to avoid potential issues with the latest version

@@ -1,7 +1,7 @@
 from newspaper import Article
 from transformers import pipeline
 
-summarizer = pipeline("summarization")
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn")  # Use a smaller model if available
 
 def summarize_text(url):
     """
